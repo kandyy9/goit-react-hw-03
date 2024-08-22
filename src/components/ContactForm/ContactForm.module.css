@@ -1,0 +1,49 @@
+.addForm{
+    display: flex;
+    border: 2px solid #6e6a6aee;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    padding-bottom: 5px;
+}
+
+.fieldContainer {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.formikInput{
+    width: 350px;
+    padding: 5px 20px;
+    border-radius: 3px;
+}
+
+.formikInput:focus {
+    outline: none;
+    border: 2px solid #4a90e2;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.8);
+    border-radius: 4px;
+}
+
+.errorMessage {
+    color: red;
+    font-size: 14px;
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+button{
+    display: block;
+    padding: 8px 20px;
+    border-radius: 3px;
+}

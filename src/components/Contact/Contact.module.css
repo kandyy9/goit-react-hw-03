@@ -1,0 +1,24 @@
+.contactContainer{
+    display: flex;
+    justify-content: space-between;
+    min-width: 250px;
+    border: 3px solid #6e6a6aee;
+    border-radius: 4px;
+    padding: 10px 15px;
+}
+
+.contacInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contactInfoField{
+    display: flex;
+    gap: 3px;   
+}
+
+.addContactButton{
+    padding: 0;
+    line-height: 1.;
+}

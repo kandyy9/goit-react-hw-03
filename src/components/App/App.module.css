@@ -1,0 +1,24 @@
+.container {
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+img,button{
+    display: block;
+}
+
+img{
+    width: 100%;
+}
+
+p{
+    margin: 0;
+}
+
+ul{
+    padding: 0;
+    list-style-type: none;
+}
