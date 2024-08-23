@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import ContactForm from "../ContactForm/ContactForm";
 import Searchbox from "../SeacrhBox/SeacrhBox";
-import ContactsList from "../ContactsList/ContactsList";
+import ContactList from "../ContactList/ContactList";
 import initialContacts from "../../contacts.json";
 import css from "./App.module.css";
 
@@ -36,11 +36,11 @@ export default function App() {
       <h1>Phone</h1>
       <ContactForm onAdd={addContact} getInitialValue={getInitialValue} />
       <Searchbox value={searchValue} onFilter={setSearchValue}></Searchbox>
-      <ContactsList
+      <ContactList
         contacts={filteredContacts}
         value={searchValue}
         deleteContact={deleteContact}
-      ></ContactsList>
+      ></ContactList>
     </div>
   );
 }
